@@ -1,0 +1,14 @@
+C:\Temp\mvc2test\Garage\bin\Garage.dll
+C:\Temp\mvc2test\Garage\bin\Garage.pdb
+C:\Temp\mvc2test\Garage\bin\System.Web.Mvc.dll
+C:\Temp\mvc2test\Garage\bin\System.Web.Routing.dll
+C:\Temp\mvc2test\Garage\bin\System.Web.Mvc.xml
+C:\Temp\mvc2test\Garage\obj\Debug\Garage.dll
+C:\Temp\mvc2test\Garage\obj\Debug\Garage.pdb
+C:\Temp\mvc2test\Garage\bin\Garage.dll.config
+C:\Projects\GaragePi\Garage\bin\Garage.dll.config
+C:\Projects\GaragePi\Garage\bin\Garage.dll
+C:\Projects\GaragePi\Garage\bin\Garage.pdb
+C:\Projects\GaragePi\Garage\bin\System.Web.Routing.dll
+C:\Projects\GaragePi\Garage\obj\Debug\Garage.dll
+C:\Projects\GaragePi\Garage\obj\Debug\Garage.pdb

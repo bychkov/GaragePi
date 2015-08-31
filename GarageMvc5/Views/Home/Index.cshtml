@@ -1,0 +1,38 @@
+﻿@using System.Web.Http.Routing
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+@section scripts
+{
+    <script src="@Url.Content("~/Scripts/jquery-2.1.1.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery-ui-1.11.2.min.js")" type="text/javascript"></script>
+    
+    <script language="javascript">
+        $(document).ready(function() {
+            console.log("Document ready...");
+
+            $("#door").click(function () {
+                var url = '@Url.RouteUrl("DefaultApi", new { httproute = "", controller = "Garage", action="PostDoorBtn" })';
+                console.log("Posting to " + url);
+                $.post(url, function (data) {
+                    console.log("Calling garage door returned: " + data.toString());
+                });
+            });
+        });
+    </script>
+}
+
+<div id="home-container">
+    <div id="home-camera">
+        <img src="http://192.168.1.116:8080" alt="Camera video" />
+    </div>
+    <div id="home-buttons">
+        <ul>
+            <li><button id="light-on">Light On</button>   <button id="light-off">Light Off</button></li>
+            <li><button id="door">Door Open/Close</button></li>
+        </ul>
+    </div>
+    <div id="home-other"></div>
+</div>

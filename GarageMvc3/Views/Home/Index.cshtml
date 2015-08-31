@@ -1,0 +1,21 @@
+﻿@inherits System.Web.Mvc.WebViewPage
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+</head>
+<body>
+    <h1>Home</h1>
+    <ul>
+        <li>OSVersion: @Environment.OSVersion.ToString()</li>
+        <li>Version: @Environment.Version.ToString()</li>
+    </ul>
+</body>
+</html>

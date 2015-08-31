@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Projects\GaragePi\Build</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Garage.dll">
+      <publishTime>12/09/2014 15:32:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Extensions.dll">
+      <publishTime>03/18/2010 20:31:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/26/2014 10:51:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Routing.dll">
+      <publishTime>03/18/2010 20:31:26</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate-vsdoc.js">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Scripts/MicrosoftAjax.debug.js">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Scripts/MicrosoftAjax.js">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Scripts/MicrosoftMvcAjax.debug.js">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Scripts/MicrosoftMvcAjax.js">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Scripts/MicrosoftMvcValidation.debug.js">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Scripts/MicrosoftMvcValidation.js">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Views/Account/ChangePassword.aspx">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Views/Account/ChangePasswordSuccess.aspx">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Views/Account/LogOn.aspx">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Views/Account/Register.aspx">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Views/Home/About.aspx">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Views/Home/Camera.aspx">
+      <publishTime>12/09/2014 15:14:52</publishTime>
+    </File>
+    <File Include="Views/Home/Index.aspx">
+      <publishTime>12/09/2014 15:37:03</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.aspx">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Views/Shared/LogOnUserControl.ascx">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Views/Shared/Site.Master">
+      <publishTime>12/09/2014 15:37:25</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>12/09/2014 14:20:32</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/09/2014 19:09:57</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
